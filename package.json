@@ -1,0 +1,21 @@
+{
+  "name": "simple-nfc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run compile && node lib/index.js",
+    "compile": "babel -d lib/ src/",
+    "compile:watch": "babel -w -d lib/ src/"
+  },
+  "keywords": [],
+  "author": "tomkp <tom@tomkp.com> (http://tomkp.com)",
+  "license": "MIT",
+  "dependencies": {
+    "nfc-pcsc": "^0.6.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
