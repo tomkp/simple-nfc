@@ -1,8 +1,4 @@
-// in ES6
-//import { NFC } from 'nfc-pcsc';
-
-// without Babel in ES2015
-const { NFC } = require('nfc-pcsc');
+import { NFC } from 'nfc-pcsc';
 
 const nfc = new NFC(); // optionally you can pass logger
 
